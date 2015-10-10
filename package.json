@@ -1,0 +1,29 @@
+{
+  "name": "kefir-get",
+  "version": "1.0.0",
+  "description": "GET requests as a kefir stream, in node and the browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/elsehow/kefir-get.git"
+  },
+  "keywords": [
+    "kefir",
+    "http",
+    "frp"
+  ],
+  "author": "elsehow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elsehow/kefir-get/issues"
+  },
+  "homepage": "https://github.com/elsehow/kefir-get#readme",
+  "dependencies": {
+    "browser-request": "^0.3.3",
+    "kefir": "^3.1.0",
+    "request": "^2.64.0"
+  }
+}

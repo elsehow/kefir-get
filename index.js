@@ -8,14 +8,12 @@ var get = function (url) {
     var request = require('request')
 
   return function () {
-    return Kefir.stream(function (emitter) { 
-      request(url, function (err, _, body) { 
-        if (err) { 
-          emitter.error(err) 
-        } else { 
-          emitter.emit(body) 
-        } 
-      })
+   request(url, function (err, _, body) { 
+     if (err) { 
+       emitter.error(err) 
+     } else { 
+       emitter.emit(body) 
+     } 
    })
  }
 }

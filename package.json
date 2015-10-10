@@ -1,6 +1,6 @@
 {
   "name": "kefir-get",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "GET requests as a kefir stream, in node and the browser",
   "main": "index.js",
   "scripts": {

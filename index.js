@@ -7,7 +7,7 @@ var get = function (url) {
   else 
     var request = require('request')
 
-  return function () {
+return Kefir.stream(function (emitter) {
    request(url, function (err, _, body) { 
      if (err) { 
        emitter.error(err) 
@@ -15,7 +15,7 @@ var get = function (url) {
        emitter.emit(body) 
      } 
    })
- }
+ })
 }
 
 module.exports = get

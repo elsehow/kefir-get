@@ -1,6 +1,6 @@
 {
   "name": "kefir-get",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "GET requests as a kefir stream, in node and the browser",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/elsehow/kefir-get#readme",
   "dependencies": {
     "browser-request": "^0.3.3",
+    "is-browser": "^2.0.1",
     "kefir": "^3.1.0",
     "request": "^2.64.0"
   }
